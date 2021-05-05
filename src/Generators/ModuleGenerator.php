@@ -324,6 +324,7 @@ class ModuleGenerator extends Generator
      */
     public function generateFolders()
     {
+        exit(var_dump($this->getFolders()));
         foreach ($this->getFolders() as $key => $folder) {
             $folder = GenerateConfigReader::read($key);
 
