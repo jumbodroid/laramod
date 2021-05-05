@@ -27,7 +27,7 @@ return [
 
     'stubs' => [
         'enabled' => false,
-        'path' => base_path('vendor/jumbodroid/laravel-modules/src/Commands/stubs'),
+        'path' => base_path('vendor/jumbodroid/laramod/src/Commands/stubs'),
         'files' => [
             'routes/web' => 'Routes/web.php',
             'routes/api' => 'Routes/api.php',
