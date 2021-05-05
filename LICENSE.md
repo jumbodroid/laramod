@@ -1,0 +1,7 @@
+# Licence
+
+Copyright (c) 2021 Jumbodroid Studios <jumbodroidstudios@gmail.com>
+
+YOU MUST CONSULT JUMBODROID STUDIOS 
+BEFORE USING THIS SOFTWARE OR ANY OF ITS
+COMPONENTS IN ANY TYPE OF PROJECT.
