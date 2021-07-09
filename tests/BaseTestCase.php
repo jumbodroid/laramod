@@ -3,7 +3,7 @@
 namespace Jumbodroid\Laramod\Tests;
 
 use Jumbodroid\Laramod\Commands;
-use Jumbodroid\Laramod\LaravelModulesServiceProvider;
+use Jumbodroid\Laramod\LaramodServiceProvider as LaravelModulesServiceProvider;
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
 
 abstract class BaseTestCase extends OrchestraTestCase
