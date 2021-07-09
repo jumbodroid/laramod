@@ -7,7 +7,7 @@ use Modules\Recipe\Providers\RecipeServiceProvider;
 use Jumbodroid\Laramod\Contracts\ActivatorInterface;
 use Jumbodroid\Laramod\Json;
 
-class ModuleTest extends BaseTestCase
+class LaravelModuleTest extends BaseTestCase
 {
     /**
      * @var TestingModule
@@ -240,13 +240,5 @@ class ModuleTest extends BaseTestCase
         app('deferred');
 
         $this->assertEquals('bar', app('foo'));
-    }
-}
-
-class TestingModule extends \Jumbodroid\Laramod\Laravel\Module
-{
-    public function registerProviders(): void
-    {
-        parent::registerProviders();
     }
 }

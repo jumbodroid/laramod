@@ -6,7 +6,7 @@ use Jumbodroid\Laramod\Contracts\RepositoryInterface;
 use Jumbodroid\Laramod\Tests\BaseTestCase;
 use Spatie\Snapshots\MatchesSnapshots;
 
-class ComponentClassCommandTest extends BaseTestCase
+class ComponentClassMakeCommandTest extends BaseTestCase
 {
     use MatchesSnapshots;
     /**
